@@ -12,7 +12,7 @@ pipeline {
 
     environment {
         // Replace YOUR_DOCKERHUB_USERNAME with your actual Docker Hub username.
-        DOCKERHUB_REPO = 'YOUR_DOCKERHUB_USERNAME/devops-pipeline-app'
+        DOCKERHUB_REPO = 'pretending/devops-pipeline-app'
         CONTAINER_NAME = 'devops-pipeline-app'
         APP_PORT = '3000'
     }
