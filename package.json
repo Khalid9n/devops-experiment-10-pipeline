@@ -1,0 +1,14 @@
+{
+  "name": "devops-pipeline-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small Node.js application for a seven-stage Jenkins CI/CD pipeline experiment",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
